@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class=ques>
+        <h1>In web design,what does CSS stand <br>for?</h1>
+        <div class="wrong">
+         <h3 class="a">a</h3><button type="button" class="default red"onclick="red()" >Counter Strike Source</button><br>
+         <h3 class="a">b</h3><button type="button" class="default blue"onclick="blue()">Corrective Style sheet</button><br>
+         <h3 class="a">c</h3><button type="button" class="default rose"onclick="rose()">Computer Style sheet</button><br>
+        </div>
+        <div class="ans">
+         <h3 class="d">d</h3><button type="button"class="ans green"onclick="green()">Cascading style sheet</button>
+        </div>
+    </div>
+    <script>
+       
+        var msg=document.getElementsByClassName("default");
+        function red(){
+               document.getElementsByClassName("red")[0].style.backgroundColor="red";
+        }
+        var wrong=document.getElementsByClassName("default");
+        function blue(){
+               document.getElementsByClassName("blue")[0].style.backgroundColor="red";
+        }
+        var wrong=document.getElementsByClassName("default");
+        function rose(){
+               document.getElementsByClassName("rose")[0].style.backgroundColor="red";
+        }
+        var wro=document.getElementsByClassName("ans");
+        function green(){
+               document.getElementsByClassName("green")[0].style.backgroundColor="green";
+        }
+        
+    </script>
+
+</body>
+</html>
